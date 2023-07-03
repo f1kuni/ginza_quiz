@@ -435,7 +435,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Answer',
-            image: 'images/quiz_7_answer.png',
+            image: 'images/quiz7_answer.png',
             description: '',
             location: {
                 center: [-77.02432, 38.90634],
