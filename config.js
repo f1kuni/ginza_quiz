@@ -10,17 +10,17 @@ var config = {
     theme: 'dark',
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
-    title: 'The Title Text of this Story',
-    subtitle: 'A descriptive and interesting subtitle to draw in the reader',
-    byline: 'By a Digital Storyteller',
+    title: 'Mapbox Geography Quiz',
+    subtitle: 'Who here loves mapbox and maps the most?',
+    byline: '',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [
         {
             id: 'slug-style-id',
-            alignment: 'left',
+            alignment: 'center',
             hidden: false,
-            title: 'Display Title',
-            image: './path/to/image/source.png',
+            title: '',
+            image: 'images/mapbox-logo-white.png',
             description: '',
             location: {
                 center: [-122.418398, 37.759483],
