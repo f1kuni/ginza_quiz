@@ -74,7 +74,7 @@ var config = {
             id: 'quiz1_answer',
             alignment: 'right',
             hidden: false,
-            title: 'A.Chuo-ku',
+            title: 'Answer',
             image: 'images/quiz1_answer.png',
             description: '',
             location: {
@@ -164,7 +164,7 @@ var config = {
             id: 'quiz3',
             alignment: 'center',
             hidden: false,
-            title: 'Q3.Where does the CEO Toru want to go if he could take a long vacation?',
+            title: 'Q3.Where does CEO Toru want to go if he could take a long vacation?',
             image: 'images/quiz3.png',
             description: '',
             location: {
