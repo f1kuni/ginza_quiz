@@ -74,7 +74,7 @@ var config = {
             id: 'quiz1_answer',
             alignment: 'right',
             hidden: false,
-            title: 'Answer',
+            title: 'A.Chuo-ku',
             image: 'images/quiz1_answer.png',
             description: '',
             location: {
@@ -164,7 +164,7 @@ var config = {
             id: 'quiz3',
             alignment: 'center',
             hidden: false,
-            title: 'Q3.Where does CEO Toru want to go if he could take a long vacation?',
+            title: 'Q3.Where does the CEO Toru want to go if he could take a long vacation?',
             image: 'images/quiz3.png',
             description: '',
             location: {
@@ -439,9 +439,9 @@ var config = {
             description: '',
             location: {
                 center: [-77.02432, 38.90634],
-                zoom: 15,
-                pitch: 0,
-                bearing: 0.00
+                zoom: 18,
+                pitch: 60,
+                bearing: 5.00
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -451,11 +451,20 @@ var config = {
                     layer: 'satellite',
                     opacity: 1,
                     duration: 1000
+                },
+                {
+                    layer: 'quiz7',
+                    opacity: 1,
+                    duration: 1000
                 }
             ],
             onChapterExit: [
                 {
                     layer: 'satellite',
+                    opacity: 0
+                },
+                {
+                    layer: 'quiz7',
                     opacity: 0
                 }
             ]
